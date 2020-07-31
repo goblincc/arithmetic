@@ -2,6 +2,11 @@ package com.practice200.doublePointer;
 
 /**
  * Created by cc on 2020/7/27.
+ * 两数平方和
+ * Input: 5
+ * Output: True
+ * Explanation: 1 * 1 + 2 * 2 = 5
+ *
  */
 public class JudgeSquareSum {
     public static void main(String[] args) {

@@ -5,6 +5,8 @@ import java.util.HashSet;
 
 /**
  * Created by cc on 2020/7/29.
+ * 反转字符串中的元音字符
+ * Given s = "leetcode", return "leotcede".
  */
 public class ReverseVowels {
     public static void main(String[] args) {

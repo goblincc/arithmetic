@@ -2,6 +2,10 @@ package com.practice200.doublePointer;
 
 /**
  * Created by cc on 2020/7/30.
+ * 文字符串
+ * Input: "abca"
+ * Output: True
+ * Explanation: You could delete the character 'c'.
  */
 public class ValidPalindrome {
     public static void main(String[] args) {
