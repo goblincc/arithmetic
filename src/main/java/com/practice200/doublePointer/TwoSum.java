@@ -2,6 +2,7 @@ package com.practice200.doublePointer;
 
 /**
  * Created by Administrator on 2020/7/27.
+ * 有序数组的 Two Sum
  */
 public class TwoSum {
     public static void main(String[] args) {
