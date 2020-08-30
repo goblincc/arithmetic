@@ -5,7 +5,7 @@ import java.util.PriorityQueue;
 /**
  * Created by cc on 2020/8/4.
  */
-public class FindKthLargest {
+public class FindKthLargest implements Comparable<FindKthLargest>{
     public static void main(String[] args) {
         int[] nums = new int[]{3,2,1,5,6,4};
         int k = 2;
@@ -30,5 +30,10 @@ public class FindKthLargest {
             }
         }
         return pq.peek();
+    }
+
+    @Override
+    public int compareTo(FindKthLargest o) {
+        return 0;
     }
 }
