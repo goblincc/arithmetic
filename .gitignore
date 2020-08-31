@@ -1,0 +1,6 @@
+.idea
+target
+tmp
+schedular/scripts/__pycache__/
+gen_doc_info/**/*.txt
+*.iml
