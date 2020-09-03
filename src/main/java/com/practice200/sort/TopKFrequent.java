@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 出现频率最多的 k 个元素
+ */
 public class TopKFrequent {
     public static void main(String[] args) {
         TopKFrequent topKFrequent = new TopKFrequent();
@@ -30,6 +33,7 @@ public class TopKFrequent {
             if(bucket[frequence] == null){
                 bucket[frequence] = new ArrayList<>();
             }
+            //出现频次相同的key放到一个list中
             bucket[frequence].add(key);
         }
         List<Integer> topK = new ArrayList<>();
