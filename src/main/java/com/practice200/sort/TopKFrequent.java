@@ -11,7 +11,7 @@ import java.util.Map;
 public class TopKFrequent {
     public static void main(String[] args) {
         TopKFrequent topKFrequent = new TopKFrequent();
-        int[] nums = new int[]{1,3,1,1,2,3,3,2,2};
+        int[] nums = new int[]{1,3,1,1,3,3,2,2,2};
         int k = 2;
         List<Integer> integers = topKFrequent.topKFrequent(nums, k);
         for (int i = 0; i < integers.size(); i++) {
