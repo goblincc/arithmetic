@@ -16,6 +16,7 @@ public class Assemble {
         String content = "hi ${nickname}, ${anchornick} is online";
         String make = assemble.make(content, attribute);
         System.out.println(make);
+        System.out.println(String.format("hago://voiceRoom/quickJoin?game_id=%s&source=push","yangyangdazuozhan"));
     }
 
     public void initialPlaceholders(){
