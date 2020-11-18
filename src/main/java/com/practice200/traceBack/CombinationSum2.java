@@ -1,28 +1,21 @@
 package com.practice200.traceBack;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * 39
- * 输入：candidates = [2,3,6,7], target = 7,
- * 所求解集为：
- * [
- *   [7],
- *   [2,2,3]
- * ]
- */
-public class CombinationSum {
+public class CombinationSum2 {
     public static void main(String[] args) {
-        System.out.println(new CombinationSum().combinationSum(new int[]{2, 3, 6, 7}, 7));
+        System.out.println(new CombinationSum2().combinationSum2(new int[]{10,1,2,7,6,1,5}, 8));
     }
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target){
+    public List<List<Integer>> combinationSum2(int[] candidates, int target){
         List<List<Integer>> res = new ArrayList<>();
         if(candidates == null || candidates.length == 0){
             return res;
         }
+        Arrays.sort(candidates);
         LinkedList<Integer> list = new LinkedList<>();
         track(candidates, 0, target, list, res);
         return res;
@@ -33,12 +26,13 @@ public class CombinationSum {
             res.add(new LinkedList<>(list));
             return;
         }
-        //注意此处i的取值， 如果从0开始， 则结果会出现重复[[2, 2, 3], [2, 3, 2], [3, 2, 2], [7]] 请细品！！！
-        //从每一层的第 22 个结点开始，都不能再搜索产生同一层结点已经使用过的 candidate 里的元素
         for(int i = start; i < candiates.length; i++){
             if(candiates[i] <= target){
+                if(i > start && candiates[i] == candiates[i - 1]){
+                    continue;
+                }
                 list.addLast(candiates[i]);
-                track(candiates, i, target - candiates[i], list, res);
+                track(candiates, i + 1, target - candiates[i], list, res);
                 list.removeLast();
             }
         }
