@@ -1,4 +1,4 @@
-package com.offer;
+package com.offer.exercise;
 
 /**
  *  删除链表倒数第K个节点

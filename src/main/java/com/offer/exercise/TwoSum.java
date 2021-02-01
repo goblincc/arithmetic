@@ -1,4 +1,4 @@
-package com.offer;
+package com.offer.exercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;

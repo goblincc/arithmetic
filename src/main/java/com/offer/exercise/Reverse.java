@@ -1,4 +1,4 @@
-package com.offer;
+package com.offer.exercise;
 
 /**
  * 反转单词顺序列
