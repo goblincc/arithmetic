@@ -21,6 +21,7 @@ public class QuickSort {
     }
 
     public static int getIndex(int[] nums, int left, int right){
+
         int pivotValue = nums[left];
         while(right > left){
             while (nums[right] <= pivotValue && right > left) {
