@@ -19,6 +19,7 @@ public class QuickSort {
         }
         int i = left;
         int j = right;
+        //定义基准数
         int base = nums[left];
         while(i < j){
             //注意以左侧数据为基准数， 先从右往左遍历
