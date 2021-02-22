@@ -2,12 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a064d634-2686-4ad1-a603-8c65a709330f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/CompressString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/Convert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/Deserialize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/KthNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/PathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/Exchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/ExistWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/LengthOfLongestSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/MinNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/Minwindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/MovingCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/exercise/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/LowestCommonAncestor2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/offer/tree/TreeDepth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MathProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yy/math/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yy/math/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MathProject-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/机器学习.md" beforeDir="false" afterPath="$PROJECT_DIR$/机器学习.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/offer/tree/KthNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -108,7 +129,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/offer/single/Singleton3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="154">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
               <folding>
                 <element signature="e#219#220#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
@@ -125,7 +146,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20994" />
+            <state relative-caret-position="22">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -156,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/practice200/bfsAndDFs/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice200/traceBack/Permute.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice200/traceBack/IpAdress.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/practice200/tree/BinaryTreePaths.java" />
@@ -207,6 +229,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/offer/single/Singleton.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/offer/single/Singleton2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/offer/single/Singleton3.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -226,12 +249,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MathProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -249,73 +267,13 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MathProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="arithmetic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="single" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614003430964" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1614003704435" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -456,12 +414,12 @@
       <workItem from="1612163399553" duration="3159000" />
       <workItem from="1612430364195" duration="18550000" />
       <workItem from="1613740643729" duration="47000" />
-      <workItem from="1614001675196" duration="1729000" />
+      <workItem from="1614001675196" duration="1972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169165000" />
+    <option name="totallyTimeSpent" value="169408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -483,7 +441,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49493334" visible="true" weight="0.42806393" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49493334" visible="true" weight="0.52575487" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50346667" side_tool="true" weight="0.30694142" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3991323" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -845,7 +803,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/offer/tree/KthNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -870,7 +828,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/offer/single/Singleton3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
             <element signature="e#219#220#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
@@ -883,7 +841,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20994" />
+        <state relative-caret-position="22">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
       </provider>
     </entry>
   </component>
