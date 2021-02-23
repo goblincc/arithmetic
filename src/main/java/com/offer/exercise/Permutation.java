@@ -6,6 +6,7 @@ import java.util.List;
 
 /**
  * Created by chenchang on 2021/2/8 16:10.
+ * 全排列问题
  */
 public class Permutation {
     public static void main(String[] args) {
